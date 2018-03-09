@@ -5,4 +5,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>zookeeperTest</name>
   <description>用于测试是否成功搭建zookeeper</description>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
+	<dependency>
+	    <groupId>org.apache.zookeeper</groupId>
+	    <artifactId>zookeeper</artifactId>
+    	<version>3.4.11</version>
+	</dependency>
+  </dependencies>
 </project>
